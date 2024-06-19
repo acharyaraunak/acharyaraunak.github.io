@@ -8,7 +8,8 @@
 }
 
 body {
-    background: #081b29;
+    color: #ededed;
+    background: #2493d4;
 }
 
 .header {
@@ -41,6 +42,72 @@ body {
 }
 
 .navbar a:hover, .navbar a.active {
-    color: #00abf0;
+    color: #036088;
 
+}
+
+.home {
+    height: 100vh;
+    background: url('img1-modified.png') no-repeat;
+    background-size: 500px;
+    background-position: right;
+    background-position-x: 1100px;
+    background-position-y: 200px;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content {
+    max-width: 800px;
+}
+
+.home-content h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.home-content h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #00abf0;
+}
+
+.home-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+
+}
+
+.home-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    height: 50px;
+
+}
+
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    width: 150px;
+    height:100%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-sci {
+    position: absolute;
+    bottom: 35px;
+    width: 160px;
+    background: red;
 }
