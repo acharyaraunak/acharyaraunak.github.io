@@ -9,7 +9,7 @@
 
 body {
     color: #ededed;
-    background: #2493d4;
+    background: #011b3a;
 }
 
 .header {
@@ -48,7 +48,7 @@ body {
 
 .home {
     height: 100vh;
-    background: url('img1-modified.png') no-repeat;
+    background: url('pic1-removebg-hd.png') no-repeat;
     background-size: 500px;
     background-position: right;
     background-position-x: 1100px;
